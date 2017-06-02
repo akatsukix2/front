@@ -10,3 +10,20 @@ Code block:
 let hello = "Hello World!";
 console.log(hello);
 ```
+
+Script test:
+
+<h2 id="hello">If you see this, then the test failed.</h2>
+<script>
+    let hello = "Hello World!";
+    document.getElementById("hello").innerText = hello;
+</script>
+
+Style test:
+
+Make `#hello` text color to be red.
+<style>
+h2#hello {
+    color: red;
+}
+</style>
